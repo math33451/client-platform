@@ -7,7 +7,7 @@ import axios from 'axios'
 const api = axios.create({
   baseURL: BASE_URL,
   headers: { 'Content-Type': 'application/json' },
-  timeout: 15000
+  timeout: 30000
 })
 
 // Injeta o Bearer token em toda requisição se existir
